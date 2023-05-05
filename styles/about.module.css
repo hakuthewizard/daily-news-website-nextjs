@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:0.9rem;
+    color: #00997F;
+    margin:1rem;
+}
+.parag {
+    font-size:0.9rem;
+    color: #00997F;
+    width:35vw;
+    text-align:center;
+}

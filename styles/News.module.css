@@ -1,0 +1,34 @@
+
+.title {
+    font-size: 1.5rem;
+    color: black;
+}
+.header {
+    font-size: 1rem;
+    color: #00997F;
+}
+.carouselcontainer {
+    position: relative;
+    width: 30%;
+    margin: auto; 
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.carousel .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50%;
+    color: #00997F; 
+  }
+.container a {
+   all:unset;
+   color: #00997F; 
+   cursor: pointer;
+   font-style: italic;
+   font-weight: bold;
+}
+.container a:hover {
+    color:#000;
+}
