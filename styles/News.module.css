@@ -13,6 +13,8 @@
     margin: auto; 
     font-family: 'Times New Roman', Times, serif;
     color: black;
+    container-type: inline-size;
+    container-name:carousel;
 }
 .carousel .slide {
     display: flex;
@@ -31,4 +33,10 @@
 }
 .container a:hover {
     color:#000;
+}
+@media (max-width:800px) {
+    .carouselcontainer{
+        width: 90vw;
+    }
+    
 }
